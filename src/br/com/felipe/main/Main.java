@@ -10,5 +10,6 @@ public class Main {
         System.out.println("Digite seu filme:");
         String movie = reading.nextLine();
         System.out.println("Olá");
+        System.out.println(movie);
     }
 }
