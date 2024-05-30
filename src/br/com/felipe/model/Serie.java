@@ -1,6 +1,6 @@
 package br.com.felipe.model;
 
-public class serie {
+public class Serie {
 
     public double getTitleSeason() {
         return titleSeason;

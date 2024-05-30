@@ -1,6 +1,6 @@
 package br.com.felipe.model;
 
-public class title {
+public class Title {
 
     private String titleName;
     private double titleAge;
