@@ -18,6 +18,8 @@ public class Main {
         title.setTitleAge(2002);
         title.setTitleNote(9.0);
 
-        System.out.println(movie);
+        System.out.println(title.getTitleName());
+        System.out.println(title.getTitleAge());
+        System.out.println(title.getTitleNote());
     }
 }
