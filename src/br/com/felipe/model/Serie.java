@@ -6,8 +6,8 @@ public class Serie {
         return titleSeason;
     }
 
-    public void setTitleSeason(double titleSeanso) {
-        this.titleSeason = titleSeanso;
+    public void setTitleSeason(double titleSeason) {
+        this.titleSeason = titleSeason;
     }
 
     private double titleSeason;

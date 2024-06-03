@@ -3,7 +3,7 @@ package br.com.felipe.model;
 public class Title {
 
     private String titleName;
-    private double titleAge;
+    private int titleAge;
     private String titleDescription;
     private double titleNote;
 
@@ -35,7 +35,7 @@ public class Title {
         return titleAge;
     }
 
-    public void setTitleAge(double titleAge) {
+    public void setTitleAge(int titleAge) {
         this.titleAge = titleAge;
     }
 }
