@@ -1,13 +1,12 @@
 package br.com.felipe.model;
 
 public class Movie {
-    private double titleduration;
+    private double movieDuration;
 
-    public double getTitleduration() {
-        return titleduration;
+    public double getMovieDuration() {
+        return movieDuration;
     }
-
-    public void setTitleduration(double titleduration) {
-        this.titleduration = titleduration;
+    public void setMovieDuration(double movieDuration) {
+        this.movieDuration = movieDuration;
     }
 }

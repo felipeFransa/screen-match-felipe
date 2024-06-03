@@ -10,11 +10,14 @@ public class Main {
 
     public static void main(String[] args) {
 
+        Scanner movieTitleReading = new Scanner(System.in);
+        System.out.println("enter your movie:");
+        String movieTitle = movieTitleReading.nextLine();
         Title title = new Title();
         Movie movie = new Movie();
         Serie serie = new Serie();
 
-        title.setTitleName("Harry Potter");
+        title.setTitleName(movieTitle);
         title.setTitleAge(2002);
         title.setTitleNote(9.0);
 
