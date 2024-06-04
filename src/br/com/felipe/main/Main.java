@@ -21,6 +21,9 @@ public class Main {
         title.setTitleAge(2002);
         title.setTitleNote(9.0);
 
+        movie.setMovieDuration(180);
+        movie.setTitleName("Nemo");
+
         Title newTitle = new Title();
         newTitle.setTitleName("Avater");
         newTitle.setTitleAge(2022);

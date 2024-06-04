@@ -1,6 +1,6 @@
 package br.com.felipe.model;
 
-public class Movie {
+public class Movie extends Title {
     private double movieDuration;
 
     public double getMovieDuration() {
