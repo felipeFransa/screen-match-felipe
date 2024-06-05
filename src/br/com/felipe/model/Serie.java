@@ -1,14 +1,14 @@
 package br.com.felipe.model;
 
-public class Serie {
+public class Serie extends Title {
 
-    public double getTitleSeason() {
+    private int titleSeason;
+
+    public int getTitleSeason() {
         return titleSeason;
     }
 
-    public void setTitleSeason(double titleSeason) {
+    public void setTitleSeason(int titleSeason) {
         this.titleSeason = titleSeason;
     }
-
-    private double titleSeason;
 }
