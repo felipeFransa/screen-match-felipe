@@ -21,13 +21,18 @@ public class Main {
         title.setTitleAge(2002);
         title.setTitleNote(9.0);
 
-        movie.setMovieDuration(180);
+        movie.setTitleDuration(180);
         movie.setTitleName("Nemo");
 
         Title newTitle = new Title();
         newTitle.setTitleName("Avater");
         newTitle.setTitleAge(2022);
         newTitle.setTitleNote(8.5);
+
+        Serie newSerie =new Serie();
+        newSerie.setTitleName("Supernatural");
+        newSerie.setTitleAge(2002);
+        newSerie.setTitleSeason(15);
 
         System.out.println(title.getTitleName());
         System.out.println(title.getTitleAge());
