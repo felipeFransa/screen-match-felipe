@@ -1,5 +1,6 @@
 package br.com.felipe.main;
 
+import br.com.felipe.model.ApiMovie;
 import br.com.felipe.model.Movie;
 import br.com.felipe.model.Serie;
 import br.com.felipe.model.Title;
@@ -15,9 +16,11 @@ public class Main {
 
     public static void main(String[] args) {
 
+        ApiMovie http = new ApiMovie();
+        http.setHttp("https://www.omdbapi.com/?i=tt3896198&apikey=3f9c31bf");
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
-                .uri(URI.create(endereco))
+                .uri(URI.create(http.getHttp()))
                 .build();
         HttpResponse<String> response = null;
         try {
