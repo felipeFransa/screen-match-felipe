@@ -17,5 +17,8 @@ public class MainMovie {
         newMovie.setTitleNote(10);
 
         System.out.println(newMovie.getTitleName());
+        System.out.println(newMovie.getTitleAge());
+        System.out.println(newMovie.getTitleDuration());
+        System.out.println(newMovie.getTitleNote());
     }
 }
