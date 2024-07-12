@@ -11,7 +11,7 @@ public class MainSerie {
         System.out.println("enter your TV Show:");
         String tvShow = reading.nextLine();
 
-        serie.setTitleName("Supernatural");
+        serie.setTitleName(tvShow);
         serie.setTitleAge(2002);
         serie.setTitleSeason(15);
         serie.setTitleDescription("Supernatural foi uma série de televisão estadunidense de fantasia sombria e urbana criada por Eric Kripke");
