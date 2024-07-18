@@ -1,16 +1,25 @@
 package br.com.felipe.main;
 
+import br.com.felipe.model.User;
+
 import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
+
         System.out.println("Hello welcome!");
         Scanner reading = new Scanner(System.in);
-        System.out.println("Digite 1 entra ou 0 sair:");
-        Integer opcion = reading.nextInt();
+        User user = new User();
 
-        if (opcion > 0) {
+        System.out.println("Enter your name: ");
+        String name = reading.nextLine();
+        user.setFirstName(name);
+        user.setTypeFlat("Plus");
+
+        String verification = user.getTypeFlat();
+
+        if ( verification.equals("Plus")) {
             System.out.println("Seja bem vindo:");
         } else {
             System.out.println("Acesso negado!");
