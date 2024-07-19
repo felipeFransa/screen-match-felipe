@@ -2,6 +2,7 @@ package br.com.felipe.main;
 
 import br.com.felipe.model.Movie;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class MainMovie {
@@ -9,6 +10,13 @@ public class MainMovie {
         Scanner reading = new Scanner(System.in);
         System.out.println("enter your movie:");
         String movie = reading.nextLine();
+
+        ArrayList<String> movies = new ArrayList<String>();
+        movies.add("Avatar");
+        movies.add("Harry potter");
+        movies.add("Procurando o nemo");
+
+        System.out.println(movies);
 
         Movie newMovie = new Movie();
         newMovie.setTitleName(movie);
