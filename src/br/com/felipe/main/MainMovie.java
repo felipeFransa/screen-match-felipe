@@ -3,6 +3,7 @@ package br.com.felipe.main;
 import br.com.felipe.model.Movie;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Scanner;
 
 public class MainMovie {
@@ -16,7 +17,11 @@ public class MainMovie {
         movies.add("Harry potter");
         movies.add("Procurando o nemo");
 
-        System.out.println(movies);
+        Collections.sort(movies);
+
+        for (String i : movies) {
+            System.out.println(i);
+        }
 
         Movie newMovie = new Movie();
         newMovie.setTitleName(movie);
