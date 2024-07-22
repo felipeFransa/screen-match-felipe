@@ -17,6 +17,8 @@ public class Main {
         user.setFirstName(name);
         user.setTypeFlat("Plus");
 
+        System.out.println(user.getFirstName());
+
         String verification = user.getTypeFlat();
 
         if ( verification.equals("Plus")) {
