@@ -29,9 +29,13 @@ public class MainMovie {
         newMovie.setTitleAge(2003);
         newMovie.setTitleNote(10);
 
-        System.out.println(newMovie.getTitleName());
-        System.out.println(newMovie.getTitleAge());
-        System.out.println(newMovie.getTitleDuration());
-        System.out.println(newMovie.getTitleNote());
+        while (true){
+            System.out.println(newMovie.getTitleName());
+            System.out.println(newMovie.getTitleAge());
+            System.out.println(newMovie.getTitleDuration());
+            System.out.println(newMovie.getTitleNote());
+        }
+
+
     }
 }
