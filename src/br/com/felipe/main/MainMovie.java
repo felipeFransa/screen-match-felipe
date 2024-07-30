@@ -35,7 +35,5 @@ public class MainMovie {
             System.out.println(newMovie.getTitleDuration());
             System.out.println(newMovie.getTitleNote());
         }
-
-
     }
 }
