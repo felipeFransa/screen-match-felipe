@@ -12,9 +12,16 @@ public class MainList {
         System.out.println("Enter your movie:");
         String movie = reading.nextLine();
         Movie myMovie = new Movie();
+        Movie movie1 = new Movie();
+
+        movie1.setTitleName("Avatar");
 
         myMovie.setTitleName(movie);
-
         ArrayList<Movie> listMovies = new ArrayList<>();
+
+        listMovies.add(myMovie);
+        listMovies.add(movie1);
+
+        System.out.println(listMovies);
     }
 }
