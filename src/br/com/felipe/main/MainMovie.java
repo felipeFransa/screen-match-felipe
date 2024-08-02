@@ -28,6 +28,9 @@ public class MainMovie {
         newMovie.setTitleDuration(180);
         newMovie.setTitleAge(2003);
         newMovie.setTitleNote(10);
+        newMovie.setDescription("""
+                Filme lancado no ano:
+                """+newMovie.getTitleAge());
 
         while (true){
             System.out.println(newMovie.getTitleName());
