@@ -1,4 +1,4 @@
-package br.com.felipe.model;
+package br.com.felipe.screenMatch.model;
 
 public class User {
     private String firstName;

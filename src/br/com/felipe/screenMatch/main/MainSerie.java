@@ -1,6 +1,6 @@
-package br.com.felipe.main;
+package br.com.felipe.screenMatch.main;
 
-import br.com.felipe.model.Serie;
+import br.com.felipe.screenMatch.model.Serie;
 
 import java.util.Scanner;
 

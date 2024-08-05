@@ -1,6 +1,6 @@
-package br.com.felipe.main;
+package br.com.felipe.screenMatch.main;
 
-import br.com.felipe.model.Movie;
+import br.com.felipe.screenMatch.model.Movie;
 
 import java.util.ArrayList;
 import java.util.Scanner;
