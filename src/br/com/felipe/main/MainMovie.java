@@ -13,7 +13,7 @@ public class MainMovie {
         String movie = reading.nextLine();
 
         ArrayList<String> movies = new ArrayList<String>();
-        movies.add("Avatar");
+        movies.add(movie);
         movies.add("Harry potter");
         movies.add("Procurando o nemo");
 
@@ -33,10 +33,8 @@ public class MainMovie {
                 """+newMovie.getTitleAge());
 
         while (true){
-            System.out.println(newMovie.getTitleName());
-            System.out.println(newMovie.getTitleAge());
-            System.out.println(newMovie.getTitleDuration());
-            System.out.println(newMovie.getTitleNote());
+            newMovie.showMovie();
+            break;
         }
     }
 }
