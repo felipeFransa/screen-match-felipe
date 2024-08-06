@@ -7,6 +7,10 @@ public class Title {
     private String titleDescription;
     private double titleNote;
 
+    public void titleShow(){
+        System.out.println(getTitleName()+ " your movie age " + getTitleAge());
+    }
+
     public String getTitleDescription() {
         return titleDescription;
     }
