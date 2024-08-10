@@ -12,6 +12,9 @@ public class MainMovie {
         System.out.println("enter your movie:");
         String movie = reading.nextLine();
 
+        System.out.println("enter plan");
+        String plan = reading.nextLine();
+
         ArrayList<String> movies = new ArrayList<String>();
         movies.add(movie);
         movies.add("Harry potter");
@@ -32,9 +35,10 @@ public class MainMovie {
                 Filme lancado no ano:
                 """+newMovie.getTitleAge());
 
-        while (true){
-            newMovie.showMovie();
-            break;
-        }
+       if (plan.equals("plus")){
+           newMovie.showMovie();
+       }else {
+           System.out.println("failed");
+       }
     }
 }
