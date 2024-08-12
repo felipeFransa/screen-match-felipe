@@ -22,6 +22,14 @@ public class MainList {
         listMovies.add(myMovie);
         listMovies.add(movie1);
 
-        System.out.println(listMovies);
+        System.out.println("Enter your password:");
+        String password = reading.nextLine();
+
+        if (password.equals("a8f3s3f3")){
+            System.out.println("list movie:");
+            System.out.println(listMovies);
+        }else {
+            System.out.println("failed");
+        }
     }
 }
