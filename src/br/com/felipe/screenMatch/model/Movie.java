@@ -4,12 +4,6 @@ public class Movie extends Title {
     private int titleDuration;
     private String description;
 
-    public void showMovie(){
-        getTitleName();
-        getTitleDuration();
-        getDescription();
-    }
-
     public String getDescription() {
         return description;
     }

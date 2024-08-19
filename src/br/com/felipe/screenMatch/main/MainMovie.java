@@ -9,14 +9,12 @@ import java.util.Scanner;
 public class MainMovie {
     public static void main(String[] args) {
         Scanner reading = new Scanner(System.in);
-        System.out.println("enter your movie:");
-        String movie = reading.nextLine();
 
         System.out.println("enter plan");
         String plan = reading.nextLine();
 
         ArrayList<String> movies = new ArrayList<String>();
-        movies.add(movie);
+        movies.add("Avatar");
         movies.add("Harry potter");
         movies.add("Procurando o nemo");
 
@@ -27,7 +25,7 @@ public class MainMovie {
         }
 
         Movie newMovie = new Movie();
-        newMovie.setTitleName(movie);
+        newMovie.setTitleName("dracula");
         newMovie.setTitleDuration(180);
         newMovie.setTitleAge(2003);
         newMovie.setTitleNote(10);
@@ -36,7 +34,7 @@ public class MainMovie {
                 """+newMovie.getTitleAge());
 
        if (plan.equals("plus")){
-           newMovie.showMovie();
+           System.out.println(newMovie.getTitleName());
        }else {
            System.out.println("failed");
        }
