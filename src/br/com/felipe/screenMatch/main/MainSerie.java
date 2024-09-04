@@ -15,10 +15,15 @@ public class MainSerie {
         serie.setTitleAge(2002);
         serie.setTitleSeason(15);
         serie.setTitleDescription("Supernatural foi uma série de televisão estadunidense de fantasia sombria e urbana criada por Eric Kripke");
+        serie.setToCheck(true);
 
-        System.out.println("your " +serie.getTitleName());
-        System.out.println(serie.getTitleAge());
-        System.out.println(serie.getTitleSeason());
-        System.out.println(serie.getTitleDescription());
+        if (serie.isToCheck()){
+            System.out.println("your " +serie.getTitleName());
+            System.out.println(serie.getTitleAge());
+            System.out.println(serie.getTitleSeason());
+            System.out.println(serie.getTitleDescription());
+        }else {
+            System.out.println("failed");
+        }
     }
 }
