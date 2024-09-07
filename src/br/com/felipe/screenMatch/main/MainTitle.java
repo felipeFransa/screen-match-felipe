@@ -17,6 +17,7 @@ public class MainTitle {
         Title title = new Title();
         title.setTitleName(titleName);
         title.setTitleAge(titleAge);
+        title.setTitleNote(8);
         title.titleShow();
 
         System.out.println(title.getTitleName());
