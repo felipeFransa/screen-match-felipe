@@ -6,8 +6,8 @@ public class MainADS {
     public static void main(String[] args) {
         ADS ads = new ADS();
 
-        ads.setDescriptionADS("");
-        ads.setDescriptionADS("");
+        ads.setDescriptionADS("Coca-cola");
+        ads.setDescriptionADS("best soda");
 
         System.out.println(ads.getTitleADS());
         System.out.println(ads.getDescriptionADS());
