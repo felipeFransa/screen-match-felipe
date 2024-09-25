@@ -17,12 +17,11 @@ public class Main {
         user.setFirstName(name);
         user.setTypeFlat("Plus");
 
-        System.out.println(user.getFirstName());
-
         String verification = user.getTypeFlat();
 
         if ( verification.equals("Plus")) {
             System.out.println("Seja bem vindo:");
+            System.out.println(user.getFirstName());
         } else {
             System.out.println("Acesso negado!");
         }
