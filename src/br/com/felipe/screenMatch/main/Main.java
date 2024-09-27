@@ -20,10 +20,10 @@ public class Main {
         String verification = user.getTypeFlat();
 
         if ( verification.equals("Plus")) {
-            System.out.println("Seja bem vindo:");
+            System.out.println("Welcome ");
             System.out.println(user.getFirstName());
         } else {
-            System.out.println("Acesso negado!");
+            System.out.println("Access denied!");
         }
     }
 }
