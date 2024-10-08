@@ -11,6 +11,12 @@ public class MainSerie {
         System.out.println("enter your TV Show:");
         String tvShow = reading.nextLine();
 
+        Serie serie2 = new Serie();
+
+        serie2.setTitleName("Friends");
+        serie2.setTitleAge(1998);
+        serie2.setTitleSeason(10);
+
         serie.setTitleName(tvShow);
         serie.setTitleAge(2002);
         serie.setTitleSeason(15);
