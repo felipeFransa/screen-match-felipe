@@ -16,6 +16,8 @@ public class MainSerie {
         serie2.setTitleName("Friends");
         serie2.setTitleAge(1998);
         serie2.setTitleSeason(10);
+        serie2.setTitleDescription("");
+        serie2.setToCheck(true);
 
         serie.setTitleName(tvShow);
         serie.setTitleAge(2002);
