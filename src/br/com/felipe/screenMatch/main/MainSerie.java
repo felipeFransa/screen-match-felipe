@@ -30,6 +30,10 @@ public class MainSerie {
             System.out.println(serie.getTitleAge());
             System.out.println(serie.getTitleSeason());
             System.out.println(serie.getTitleDescription());
+            if(serie2.isToCheck()){
+                System.out.println(serie2.getTitleName());
+                System.out.println(serie2.getTitleAge());
+            }
         }else {
             System.out.println("failed");
         }
