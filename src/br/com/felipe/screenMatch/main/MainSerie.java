@@ -16,7 +16,7 @@ public class MainSerie {
         serie2.setTitleName("Friends");
         serie2.setTitleAge(1998);
         serie2.setTitleSeason(10);
-        serie2.setTitleDescription("");
+        serie2.setTitleDescription("Friends is a 90's Comedy TV show, based in Manhattan, about 6 friends who go through just about every life experience imaginable together; love, marriage, divorce, children, heartbreaks, fights, new jobs and job losses and all sorts of drama.");
         serie2.setToCheck(true);
 
         serie.setTitleName(tvShow);
