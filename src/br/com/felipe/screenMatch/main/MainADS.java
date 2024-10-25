@@ -16,7 +16,13 @@ public class MainADS {
         String descriptionADS = reading.next();
         ads.setDescriptionADS(descriptionADS);
 
-        System.out.println(ads.getTitleADS());
-        System.out.println(ads.getDescriptionADS());
+        ads.setToCheck(true);
+
+        if (ads.getToCheck()){
+            System.out.println(ads.getTitleADS());
+            System.out.println(ads.getDescriptionADS());
+        }else {
+            System.out.println("failed");
+        }
     }
 }

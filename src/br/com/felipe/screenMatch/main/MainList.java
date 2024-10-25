@@ -25,7 +25,7 @@ public class MainList {
         System.out.println("Enter your password:");
         String password = reading.nextLine();
 
-        if (password.equals("a8f3s3f3")){
+        if (password.equals("nexttest")){
             System.out.println("list movie:");
             System.out.println(listMovies);
         }else {
