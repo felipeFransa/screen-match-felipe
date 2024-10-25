@@ -2,12 +2,19 @@ package br.com.felipe.screenMatch.main;
 
 import br.com.felipe.screenMatch.model.ADS;
 
+import java.util.Scanner;
+
 public class MainADS {
     public static void main(String[] args) {
         ADS ads = new ADS();
+        Scanner reading = new Scanner(System.in);
+        System.out.println("enter your title:");
+        String titleADS = reading.nextLine();
+        ads.setTitleADS(titleADS);
 
-        ads.setTitleADS("Coca cola");
-        ads.setDescriptionADS("best soda");
+        System.out.println("enter your description:");
+        String descriptionADS = reading.next();
+        ads.setDescriptionADS(descriptionADS);
 
         System.out.println(ads.getTitleADS());
         System.out.println(ads.getDescriptionADS());
