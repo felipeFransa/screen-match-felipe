@@ -1,6 +1,5 @@
 package br.com.felipe.screenMatch.model;
 
-
 public class ADS {
     private String titleADS;
     private String descriptionADS;

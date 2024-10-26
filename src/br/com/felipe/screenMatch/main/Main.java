@@ -1,5 +1,6 @@
 package br.com.felipe.screenMatch.main;
 
+import br.com.felipe.screenMatch.model.ApiMovie;
 import br.com.felipe.screenMatch.model.User;
 
 import java.util.Scanner;
@@ -11,6 +12,7 @@ public class Main {
         System.out.println("Hello welcome!");
         Scanner reading = new Scanner(System.in);
         User user = new User();
+        ApiMovie api = new ApiMovie();
 
         System.out.println("Enter your name: ");
         String name = reading.nextLine();
