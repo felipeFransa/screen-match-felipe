@@ -2,10 +2,13 @@ package br.com.felipe.screenMatch.main;
 
 import br.com.felipe.screenMatch.model.ADS;
 
+import java.time.LocalDate;
 import java.util.Scanner;
 
 public class MainADS {
     public static void main(String[] args) {
+
+        LocalDate myDate = LocalDate.now();
         ADS ads = new ADS();
         Scanner reading = new Scanner(System.in);
         System.out.println("enter your title:");
