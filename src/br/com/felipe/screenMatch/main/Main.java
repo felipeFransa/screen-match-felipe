@@ -28,7 +28,8 @@ public class Main {
         if ( verification.equals("Plus")) {
             System.out.println("Welcome ");
             System.out.println(user.getFirstName());
-            System.out.println(myDate + " " + myTime);
+            System.out.println(myDate + " or " + myTime);
+            System.out.println("Welcome bank 333");
         } else {
             System.out.println("Access denied!");
         }
