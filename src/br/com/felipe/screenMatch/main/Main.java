@@ -21,7 +21,10 @@ public class Main {
         System.out.println("Enter your name: ");
         String name = reading.nextLine();
         user.setFirstName(name);
-        user.setTypeFlat("Plus");
+
+        System.out.println("Enter your typeFlat");
+        String typeFlat = reading.nextLine();
+        user.setTypeFlat(typeFlat);
 
         String verification = user.getTypeFlat();
 
