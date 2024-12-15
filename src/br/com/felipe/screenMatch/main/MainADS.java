@@ -24,6 +24,7 @@ public class MainADS {
         if (ads.getToCheck()){
             System.out.println(ads.getTitleADS());
             System.out.println(ads.getDescriptionADS());
+            System.out.println(myDate);
         }else {
             System.out.println("failed");
         }
